@@ -1,0 +1,13 @@
+{
+  "data_origin": "SYNTHETIC, not measured: continuous adaptive collocation forward data",
+  "truth_lifetime_s": 8e-09,
+  "fit_lifetime_s": 7.99293530066633e-09,
+  "relative_error": -0.0008830874167087277,
+  "seed": 20261019,
+  "log_noise_sigma": 0.02,
+  "inverse_mesh_nodes": 301,
+  "known_parameters": "Doping, geometry, temperature, mobility, ni and ideal ohmic contacts fixed; only common SRH lifetime fitted",
+  "evaluations": 10,
+  "fit_message": "`ftol` termination condition is satisfied.",
+  "approx_relative_1sigma": 0.0049083225016709415
+}
