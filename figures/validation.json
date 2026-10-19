@@ -1,0 +1,97 @@
+{
+  "device": {
+    "NA_cm-3": 1e+16,
+    "ND_cm-3": 1e+16,
+    "P_length_um": 2.0,
+    "N_length_um": 2.0,
+    "transition_nm": 20.0,
+    "temperature_K": 300.0,
+    "lifetime_s": 1e-08,
+    "SRH_enabled": true,
+    "ni_cm-3": 10000000000.0,
+    "Vbi_V": 0.7143171519880323,
+    "electron_mobility_cm2_Vs": 1350.0,
+    "hole_mobility_cm2_Vs": 480.0
+  },
+  "nodes": 601,
+  "IV_points": 25,
+  "lifetime_solved_biases": 93,
+  "lifetime_retained_ideality_points": 87,
+  "max_reference_relative_current_error": 7.197702563765951e-05,
+  "max_reference_potential_error_V": 7.713943863119077e-06,
+  "max_poisson_residual": 1.7850016790400982e-10,
+  "max_flux_activity_reconstruction_log_error": 9.132499201314204e-10,
+  "max_total_current_spread_A_m2": 1.8189894035458565e-12,
+  "raw_current_note": "Raw local differences suffer cancellation at low currents. Total current is obtained from the integrated SG/contact constraints, not a diode formula.",
+  "conservation_note": "Exact total-flux constancy is structural, not independent proof of correctness; activity reconstruction, collocation and mesh checks are also required.",
+  "independent_reference": [
+    {
+      "voltage_V": -0.2,
+      "SG_J_A_m2": -0.005781178918506529,
+      "collocation_J_A_m2": -0.0057810603593744505,
+      "relative_current_error": 2.0508198273150313e-05,
+      "max_potential_error_V": 7.713943863119077e-06,
+      "collocation_nodes": 1475,
+      "collocation_RMS_residual": 1.9983036203950164e-06
+    },
+    {
+      "voltage_V": 0.1,
+      "SG_J_A_m2": 0.015354686042980284,
+      "collocation_J_A_m2": 0.015353580937891489,
+      "relative_current_error": 7.197702563765951e-05,
+      "max_potential_error_V": 6.6561150808830405e-06,
+      "collocation_nodes": 1393,
+      "collocation_RMS_residual": 1.9932623352386955e-06
+    },
+    {
+      "voltage_V": 0.2,
+      "SG_J_A_m2": 0.1390619628800692,
+      "collocation_J_A_m2": 0.13905464278570068,
+      "relative_current_error": 5.2641855186275066e-05,
+      "max_potential_error_V": 6.29985295264035e-06,
+      "collocation_nodes": 1415,
+      "collocation_RMS_residual": 1.9839548123082835e-06
+    },
+    {
+      "voltage_V": 0.4,
+      "SG_J_A_m2": 31.38026346553704,
+      "collocation_J_A_m2": 31.380093125614344,
+      "relative_current_error": 5.428279706398698e-06,
+      "max_potential_error_V": 5.467222650934467e-06,
+      "collocation_nodes": 1313,
+      "collocation_RMS_residual": 1.9860393012923664e-06
+    },
+    {
+      "voltage_V": 0.55,
+      "SG_J_A_m2": 7476.85464118603,
+      "collocation_J_A_m2": 7476.823690987287,
+      "relative_current_error": 4.139484896636958e-06,
+      "max_potential_error_V": 4.163706629645159e-06,
+      "collocation_nodes": 1008,
+      "collocation_RMS_residual": 1.9994335468500156e-06
+    }
+  ],
+  "mesh": [
+    {
+      "nodes": 151,
+      "current_density_A_m2": 181.02379277269756,
+      "relative_error_vs_collocation": 5.44064563476887e-05
+    },
+    {
+      "nodes": 301,
+      "current_density_A_m2": 181.0165759843751,
+      "relative_error_vs_collocation": 1.4537769188915917e-05
+    },
+    {
+      "nodes": 601,
+      "current_density_A_m2": 181.0146104247433,
+      "relative_error_vs_collocation": 3.679160269109971e-06
+    },
+    {
+      "nodes": 1201,
+      "current_density_A_m2": 181.01410976303194,
+      "relative_error_vs_collocation": 9.132865519401179e-07
+    }
+  ],
+  "mixing_current_relative_difference": 1.4760059841023576e-10
+}
