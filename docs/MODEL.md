@@ -27,8 +27,8 @@ np=n_i^2\exp[(F_n-F_p)/V_T].
 接触无量纲电势为：
 
 ```math
-u_P=-\operatorname{asinh}(N_A/2n_i),\qquad
-u_N=\operatorname{asinh}(N_D/2n_i)-V/V_T.
+u_P=-\mathrm{asinh}(N_A/2n_i),\qquad
+u_N=\mathrm{asinh}(N_D/2n_i)-V/V_T.
 ```
 
 接触 a 从 0 到 V/VT，b 从 0 到 -V/VT。掺杂过渡是固定物理宽度的 tanh 曲线，不随网格改变，从而让独立配点和网格研究比较同一个连续问题。
@@ -82,7 +82,7 @@ J_{p,e}=-g_{p,e}(Bact_R-Bact_L).
 
 中性区的大浓度变化很小，直接相减得到的原始边电流可能出现明显的相对浮点误差。代码保留它们为 Jn_raw/Jp_raw，同时从同一个 SG 离散方程计算稳健通量。
 
-令内部节点复合源积分为 Si=q*Ri*控制区间长度，从左接触累计至边 e 为 Ke。离散连续性给出：
+令内部节点复合源积分为 `Si = q * Ri * 控制区间长度`，从左接触累计至边 e 为 Ke。离散连续性给出：
 
 ```math
 J_{n,e}=j_{n,0}+K_e,\qquad J_{p,e}=j_{p,0}-K_e.
